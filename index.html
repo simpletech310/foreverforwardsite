@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forever Forward | Lead the Future. Protect Your Legacy.</title>
+    <meta
+      name="description"
+      content="Forever Forward is a Los Angeles nonprofit empowering Black and Brown fathers and youth through technology, leadership, and community support."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#0A192F',
+              gold: '#D48806',
+              slatepro: '#4A5568',
+            },
+            fontFamily: {
+              heading: ['Montserrat', 'sans-serif'],
+              body: ['Inter', 'Open Sans', 'sans-serif'],
+            },
+            boxShadow: {
+              glass: '0 10px 30px rgba(10, 25, 47, 0.18)',
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8w4LLQK8fWUE00s/3v5A8mA5fXQkYTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="bg-white font-body text-slatepro antialiased">
+    <header class="sticky top-0 z-50 border-b border-white/30 bg-navy/85 backdrop-blur-lg">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <a href="#home" class="group flex items-center gap-3">
+          <div class="flex h-12 w-12 items-center justify-center rounded-xl border border-gold/35 bg-white/10 shadow-glass">
+            <svg viewBox="0 0 64 64" class="h-8 w-8" aria-hidden="true">
+              <path d="M8 18L32 6l24 12v10c0 15-10 24-24 30C18 52 8 43 8 28V18z" fill="#D48806" opacity="0.9" />
+              <path d="M18 23h28M18 31h22M18 39h16" stroke="#0A192F" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </div>
+          <div>
+            <p class="font-heading text-base font-bold tracking-wide text-white">FOREVER FORWARD</p>
+            <p class="text-xs font-medium uppercase tracking-[0.2em] text-gold">Strong • Safe • Smart</p>
+          </div>
+        </a>
+
+        <nav class="hidden items-center gap-8 md:flex">
+          <a href="#programs" class="text-sm font-semibold text-white transition hover:text-gold">Programs</a>
+          <a href="#mission" class="text-sm font-semibold text-white transition hover:text-gold">Our Mission</a>
+          <a href="#about" class="text-sm font-semibold text-white transition hover:text-gold">About</a>
+        </nav>
+
+        <a
+          href="#join"
+          class="rounded-xl bg-gold px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-gold/30 transition hover:brightness-110"
+          >Join Now</a
+        >
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="relative overflow-hidden bg-navy py-16 sm:py-20">
+        <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-navy"></div>
+        <div class="relative mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
+          <div class="space-y-6">
+            <p class="inline-flex items-center gap-2 rounded-full border border-gold/50 bg-white/10 px-4 py-1 text-sm font-semibold text-gold">
+              <i class="fa-solid fa-location-dot"></i> Los Angeles, California
+            </p>
+            <h1 class="font-heading text-4xl font-extrabold leading-tight text-white sm:text-5xl">
+              Lead the Future.<br />
+              Protect Your Legacy.
+            </h1>
+            <p class="max-w-xl text-lg text-white/90">
+              The digital era is moving fast. We make sure you’re the one leading the way through
+              career-ready technology skills, fatherhood leadership, and community support.
+            </p>
+            <div class="flex flex-wrap items-center gap-4" id="join">
+              <a
+                href="#program-spotlight"
+                class="rounded-xl bg-gold px-6 py-3 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-gold/30 transition hover:-translate-y-0.5"
+                >Join the Next Cohort</a
+              >
+              <a
+                href="#mission"
+                class="rounded-xl border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+                >View Mission</a
+              >
+            </div>
+          </div>
+
+          <div class="rounded-2xl border border-white/20 bg-white/10 p-2 backdrop-blur-md shadow-glass">
+            <img
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1400&q=80"
+              alt="Black father and son in a modern tech office with city skyline views"
+              class="h-[360px] w-full rounded-xl object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto mb-10 max-w-3xl text-center">
+          <h2 class="font-heading text-3xl font-bold text-navy sm:text-4xl">Built for Fathers, By the Community.</h2>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1000&q=80" alt="Mentorship handshake between two professionals" class="mb-4 h-48 w-full rounded-xl object-cover" />
+            <h3 class="mb-2 font-heading text-2xl font-bold text-navy">Strength</h3>
+            <p>Cultivate the discipline and leadership required to lead at home and in the boardroom.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1000&q=80" alt="Father supporting his child at home" class="mb-4 h-48 w-full rounded-xl object-cover" />
+            <h3 class="mb-2 font-heading text-2xl font-bold text-navy">Safety</h3>
+            <p>Gain the financial security and career longevity that comes with high-demand IT skills.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80" alt="Hands coding on a laptop in a modern workspace" class="mb-4 h-48 w-full rounded-xl object-cover" />
+            <h3 class="mb-2 font-heading text-2xl font-bold text-navy">Smart</h3>
+            <p>Master IT, Cybersecurity, and AI through hands-on projects designed for the real world.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="program-spotlight" class="bg-slate-50 py-16">
+        <div class="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="Diverse team of men collaborating in a technology boardroom" class="h-full min-h-[320px] w-full rounded-2xl object-cover" />
+          <div>
+            <p class="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-gold">Flagship Program</p>
+            <h2 class="font-heading text-3xl font-bold text-navy sm:text-4xl">Empowering Fathers in the Digital Era.</h2>
+            <ul class="mt-6 space-y-3 text-base">
+              <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check mt-1 text-gold"></i>IT Fundamentals: hardware, networking, and internet essentials.</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check mt-1 text-gold"></i>Cybersecurity foundations and risk-aware digital practices.</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check mt-1 text-gold"></i>Leadership development for confidence at home and in the workplace.</li>
+              <li class="flex items-start gap-3"><i class="fa-solid fa-circle-check mt-1 text-gold"></i>Certification pathways including Google IT Support and Google Cybersecurity.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="mission" class="mx-auto grid max-w-7xl gap-8 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
+        <div>
+          <p class="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-gold">LULA Ecosystem</p>
+          <h2 class="font-heading text-3xl font-bold text-navy sm:text-4xl">Level Up with Your Kids.</h2>
+          <p class="mt-4">
+            LULA (Level Up Learning Academy) blends father-child bonding with STEM exploration through
+            immersive activities, project-based learning, and creative challenges. Families build skills
+            together while strengthening trust, communication, and long-term goals.
+          </p>
+          <p class="mt-4">
+            Forever Forward exists because talent is everywhere, but access isn’t. By equipping fathers and
+            youth with modern tools, mentorship, and opportunity, we help communities lead—not get left behind.
+          </p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=1400&q=80" alt="Father and child exploring STEM technology with virtual reality and digital fabrication tools" class="h-full min-h-[320px] w-full rounded-2xl object-cover" />
+      </section>
+    </main>
+
+    <footer id="about" class="bg-navy py-12 text-white">
+      <div class="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
+        <div>
+          <h3 class="font-heading text-xl font-bold">Forever Forward</h3>
+          <p class="mt-3 text-white/80">Empowering Black and Brown fathers and youth through technology, leadership, and opportunity.</p>
+        </div>
+        <div>
+          <h4 class="font-heading text-lg font-semibold">Los Angeles Office</h4>
+          <p class="mt-3 text-white/80">123 Innovation Way<br />Los Angeles, CA 90001<br />info@foreverforward.org</p>
+        </div>
+        <div>
+          <h4 class="font-heading text-lg font-semibold">Connect</h4>
+          <div class="mt-3 flex gap-3 text-lg">
+            <a href="#" class="rounded-lg border border-white/30 p-2 transition hover:bg-white/10" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="rounded-lg border border-white/30 p-2 transition hover:bg-white/10" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="rounded-lg border border-white/30 p-2 transition hover:bg-white/10" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-heading text-lg font-semibold">Tools of the Trade</h4>
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80" alt="Flat lay of laptop, notebook, and headphones on a desk" class="mt-3 h-32 w-full rounded-xl object-cover" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
